@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+
+h1 {
+ font-family: 'Roboto Mono', monospace;
+}
+* {
+    box-sizing: border-box;
+}
+.box {
+    color:rgb(7, 7, 7);
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:15px;
+    width: 100%;
+    display: block;
+}
+  .box1 { background:red;}
+  .box1 {
+      flex: 1;
+  }
+  .box2 { background:green;}
+  .box2 {
+      flex: 6;
+  }
+  .box3 { background:rgb(39, 36, 36)}
+  .box4 { background:#06f51a;}
+  .box5 { background:#f1c40f;}
+  .box6 { background-color: rgb(46, 11, 245);}
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navbar-default > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

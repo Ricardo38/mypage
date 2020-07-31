@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(245, 13, 13)
+}
+
+h1, .mainText {
+    color: rgb(34, 30, 30);
+    font-size: 90px
+}
+
+.mainText{
+    color: palegreen;
+}
+
+.largeText {
+    font-size: 100px
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: nowrap;
+}
+.navbar-default > .container{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
